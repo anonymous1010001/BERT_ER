@@ -16,3 +16,6 @@ Then run `wiki_chunk_wise_data.py` for the required dataset of BERT_ER model.
 
 ## Training and inferencing individual models
 For training run `training_with_LLM_generated_synthetic_data.py`. <br> After training, you can find the best checkpoint on the dev set according to the evaluation results. For this use `prediction.py`.
+
+# QPP-Evaluator
+Download the `qpp-eval-main.zip' and it uses Apache lucene for the retrieval process (Download the ).[link]
