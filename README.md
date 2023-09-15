@@ -3,7 +3,7 @@ This repository contains source code for LLM generated synthetic evidence based 
 
 ## Prepare Dataset 
 ### Dataset corresponding BERT_SD
-Run `generated_sentence_creation.py` to generate the LLM generated synthetic data and then convert that into .csv format using `generation_pickle_to_csv_convert.pickle.py` file.
+Run `generated_sentence_creation.py` to generate the LLM generated synthetic data and then convert that into .csv format using `generation_pickle_data_to_csv_convert.py` file.
 
 ### Dataset corresponding BERT_FSD
 First create a `.csv` file including `claim_id`, `claim`,`label`, using the annotated FEVER .jsonl files.<br> 
