@@ -18,4 +18,4 @@ Then run `wiki_chunk_wise_data.py` for the required dataset of BERT_ER model.
 For training run `training_with_LLM_generated_synthetic_data.py`. <br> After training, you can find the best checkpoint on the dev set according to the evaluation results. For this use `prediction.py`.
 
 # QPP-Evaluator
-Download the `qpp-eval-main.zip' and it expects Apache lucene for the retrieved documents in TREC (Download the `lucene-msmarco-main.zip' and set up the Lucene by configuring accordingly).[link]
+Download the `qpp-eval-main.zip' and it expects Apache lucene for the retrieved documents in TREC (Download the `lucene-msmarco-main.zip' and set up the Lucene by configuring accordingly). Run QPPScoresFileWriter.java file.
